@@ -7,6 +7,6 @@ const usertcontrollerlogin = require('../Controllers/login')//si pongo solo cont
 userrouter.get('/user/:id',usertcontrollerget.getuserbyid)
 userrouter.post('/register',usertcontroller.register)
 userrouter.post('/login', usertcontrollerlogin.login)
-//routerusers.delete('/:id',controllers.deleteproducts)
+userrouter.get('/verify/:token', usertcontroller.verify)
 
 module.exports = userrouter

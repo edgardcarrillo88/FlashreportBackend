@@ -10,7 +10,8 @@ const usersquema = mongoose.Schema(
         DNI:{type:String},
         contrasena:{type:String},
         empresa:{type:String},
-        deleted: {type: Boolean, default:false}
+        deleted: {type: Boolean, default:false},
+        verificado: { type: Boolean, default: false }
     },{
         timestamps:true
     })

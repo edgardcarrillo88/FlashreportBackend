@@ -7,8 +7,8 @@ const cors = require('cors')
 const app = express()
 const userscontroller = require('./routes/users')
 
-var Mongoose = require('mongoose');
-var db = Mongoose.createConnection(`mongodb://ea.carrillo.iparraguirre@gmail.com:${process.env.MONGO_DB_PASS}@localhost/Flashreport`);
+// var Mongoose = require('mongoose');
+// var db = Mongoose.createConnection(`mongodb://ea.carrillo.iparraguirre@gmail.com:${process.env.MONGO_DB_PASS}@localhost/Flashreport`);
 
 
 
